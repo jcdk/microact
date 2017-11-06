@@ -1782,9 +1782,9 @@ jQuery(document).ready(function($) {
 							var imgstr = '';
 							for (var i = 0; i < imgarr.length; i++) {								
 								if (videoflag == '0') {
-									imgstr += '<div class="ipinimgwrapper" data-href="' + obj_ipin.home_url + '/itm-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(input_url.replace('http','')) + '&t=' + page_title + '&desc=' + page_description + '&video=' + videoflag + '"><div class="ipinbutton">+</div><img src="' + imgarr[i][0] + '" /></div>';
+									imgstr += '<div class="ipinimgwrapper" data-href="' + obj_ipin.home_url + '/pins-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(input_url.replace('http','')) + '&t=' + page_title + '&desc=' + page_description + '&video=' + videoflag + '"><div class="ipinbutton">+</div><img src="' + imgarr[i][0] + '" /></div>';
 								} else {
-									imgstr += '<div class="ipinimgwrapper" data-href="' + obj_ipin.home_url + '/itm-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(input_url.replace('http','')) + '&t=' + page_title + '&desc=' + page_description + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension">' + obj_ipin.__Video + '</div><img src="' + imgarr[i][0] + '" /></div>';
+									imgstr += '<div class="ipinimgwrapper" data-href="' + obj_ipin.home_url + '/pins-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(input_url.replace('http','')) + '&t=' + page_title + '&desc=' + page_description + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension">' + obj_ipin.__Video + '</div><img src="' + imgarr[i][0] + '" /></div>';
 								}
 							}
 

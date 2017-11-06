@@ -62,7 +62,7 @@
 				?>
 				<a id="top-notifications-mobile" class="<?php if ($notifications_count != '0') echo 'top-notifications-mobile-count-nth'; ?>" href="<?php echo home_url('/notifications/'); ?>"><?php echo $notifications_count; ?></a>
 				<?php if (current_user_can('edit_posts')) { ?>
-					<a id="top-add-button-mobile" href="<?php echo home_url('/itm-settings/'); ?>"><i class="fa fa-plus"></i></a>
+					<a id="top-add-button-mobile" href="<?php echo home_url('/pins-settings/'); ?>"><i class="fa fa-plus"></i></a>
 				<?php } ?>
 			<?php } else { ?>
 				<a id="top-add-button-mobile" href="<?php echo home_url('/login/'); ?>"><i class="fa fa-user"></i></a>
@@ -92,7 +92,7 @@
 				<?php if ($user_ID) { ?>
 					<?php if (current_user_can('edit_posts')) { ?>
 					<li class="hidden-xs">
-						<a id="icon-add-pin" rel="tooltip" data-placement="bottom" title="<?php _e('Add Pin', 'ipin'); ?>" href="<?php echo home_url('/itm-settings/'); ?>">
+						<a id="icon-add-pin" rel="tooltip" data-placement="bottom" title="<?php _e('Add Pin', 'ipin'); ?>" href="<?php echo home_url('/pins-settings/'); ?>">
 							<span class="fa-stack">
 								<i class="fa fa-square fa-stack-2x"></i>
 								<i class="fa fa-plus fa-stack-1x fa-inverse"></i>
@@ -112,7 +112,7 @@
 					<li id="dropdown-user-settings" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="" href=""><span class="hidden-xs"><?php echo get_avatar($user_ID, '26'); ?></span><span class="visible-xs pull-left"><?php echo $user_identity; ?>&nbsp;</span> <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<?php if (current_user_can('edit_posts')) { ?>
-							<li class="visible-xs"><a href="<?php echo home_url('/itm-settings/'); ?>"><?php _e('Add Pin', 'ipin'); ?></a></li>
+							<li class="visible-xs"><a href="<?php echo home_url('/pins-settings/'); ?>"><?php _e('Add Pin', 'ipin'); ?></a></li>
 							<li class="visible-xs"><a href="<?php echo home_url('/boards-settings/'); ?>"><?php _e('Add Board', 'ipin'); ?></a></li>
 							<?php } ?>
 							<li><a href="<?php echo home_url('/following/'); ?>"><i class="fa fa-list-ul fa-fw hidden-xs"></i> <?php _e('Following Feed', 'ipin'); ?></a></li>

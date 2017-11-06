@@ -86,7 +86,7 @@
 									
 									<?php if ($post->post_author == $user_ID || current_user_can('edit_others_posts')) { ?>
 									<span class="post-action-button">
-										<a class="ipin-edit btn btn-success" href="<?php echo home_url('/itm-settings/'); ?>?i=<?php the_ID(); ?>" rel="tooltip" title="<?php _e('Edit', 'ipin'); ?>" data-placement="bottom"><i class="fa fa-pencil fa-fw"></i></a>
+										<a class="ipin-edit btn btn-success" href="<?php echo home_url('/pins-settings/'); ?>?i=<?php the_ID(); ?>" rel="tooltip" title="<?php _e('Edit', 'ipin'); ?>" data-placement="bottom"><i class="fa fa-pencil fa-fw"></i></a>
 									</span>
 									<?php } ?>
 

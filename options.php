@@ -121,7 +121,7 @@ function optionsframework_options() {
 		
 	$options[] = array(
 		'name' => __('Pin It Button Image', 'options_framework_theme'),
-		'desc' => __('Leave blank to use text for Pin It Button at <a href="' . home_url('/itm-settings/') . '">Add > Pin</a>.', 'options_framework_theme'),
+		'desc' => __('Leave blank to use text for Pin It Button at <a href="' . home_url('/pins-settings/') . '">Add > Pin</a>.', 'options_framework_theme'),
 		'id' => 'pinit_button',
 		'type' => 'upload');
 		
@@ -458,7 +458,7 @@ function optionsframework_options() {
 
 		<hr style="border:none;border-top:1px solid #ccc;color" />
 		<h2>Adding Pins</h2>
-		<p>All users should add pins from the frontend (top right corner)  > Add > <a href="' . home_url('/itm-settings/') . '" target="_blank">Pin</a>. Notes when adding pins from backend e.g WP-Admin > Posts > Add New</p>
+		<p>All users should add pins from the frontend (top right corner)  > Add > <a href="' . home_url('/pins-settings/') . '" target="_blank">Pin</a>. Notes when adding pins from backend e.g WP-Admin > Posts > Add New</p>
 		<ol>
 		<li>The "Featured Image" must be set.</li>
 		<li>The post will be assigned to the board with the same name as the post category. E.g if a post is created under the Humour category, the post will be assigned to the Humour board. If Humour board does not exist, it will be created automatically.</li>

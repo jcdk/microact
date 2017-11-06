@@ -52,7 +52,7 @@
 						<button id="ipin-like-<?php echo $post->ID; ?>" class="ipin-like btn btn-default btn-sm<?php if(ipin_liked($post->ID)) { echo ' disabled'; } ?>" data-post_id="<?php echo $post->ID ?>" data-post_author="<?php echo $post->post_author; ?>" type="button"><i class="fa fa-heart fa-lg"></i></button>
 					</span>
 				<?php } else { ?>
-					<a id="ipin-edit-<?php echo $post->ID; ?>" class="ipin-edit-actionbar btn btn-default btn-sm" href="<?php echo home_url('/itm-settings/'); ?>?i=<?php the_ID(); ?>"><i class="fa fa-pencil fa-lg"></i></a>
+					<a id="ipin-edit-<?php echo $post->ID; ?>" class="ipin-edit-actionbar btn btn-default btn-sm" href="<?php echo home_url('/pins-settings/'); ?>?i=<?php the_ID(); ?>"><i class="fa fa-pencil fa-lg"></i></a>
 				<?php } ?>
 				
 				<span class="undisable_buttons">

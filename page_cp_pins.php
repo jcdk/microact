@@ -275,7 +275,7 @@ if ($_GET['i']) {  //edit pin
 							<strong>
 							<?php _e('Unable to fetch image from remote site', 'ipin'); ?> 
 							(<?php echo $curl_error; ?>)<br /><br />
-							<a href="<?php echo home_url('/itm-settings/'); ?>"><?php _e('Please save image onto device and upload from device.', 'ipin'); ?></a>
+							<a href="<?php echo home_url('/pins-settings/'); ?>"><?php _e('Please save image onto device and upload from device.', 'ipin'); ?></a>
 							</strong>
 						<?php } ?>
 						</div>

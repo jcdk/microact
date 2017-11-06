@@ -166,7 +166,7 @@ if (document.URL.match(/(gif|png|jpg|jpeg)$/i) && (navigator.appVersion.indexOf(
 			jQuery('#ipinframebg').html('<p>Sorry, unable to find anything to save on this page.</p>');
 		} else if (document.URL.match(/(gif|png|jpg|jpeg)$/i)) {
 			jQuery('#ipinimages').hide();
-			jQuery('#ipinframebg').html('<p>For direct jpg/gif/png url,<br />please fetch image at<br /><a href="' + ipinsiteurl + '/itm-settings/">Add > Pin > From Web</a></p>');
+			jQuery('#ipinframebg').html('<p>For direct jpg/gif/png url,<br />please fetch image at<br /><a href="' + ipinsiteurl + '/pins-settings/">Add > Pin > From Web</a></p>');
 		} else {
 			imgarr.sort(function(a,b)
 			{
@@ -183,9 +183,9 @@ if (document.URL.match(/(gif|png|jpg|jpeg)$/i) && (navigator.appVersion.indexOf(
 			var imgstr = '';
 			for (var i = 0; i < imgarr.length; i++) {				
 				if (videoflag == '0') {
-					imgstr += '<div class="ipinimgwrapper" data-href="' + ipinsiteurl + 'itm-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(document.URL.replace('http','')) + '&t=' + encodeURIComponent(page_title) + '&desc=' + encodeURIComponent(page_description) + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension">' + parseInt(imgarr[i][1],10) + ' x ' + parseInt(imgarr[i][2],10) + '</div><img src="' + imgarr[i][0] + '" /></div>';
+					imgstr += '<div class="ipinimgwrapper" data-href="' + ipinsiteurl + 'pins-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(document.URL.replace('http','')) + '&t=' + encodeURIComponent(page_title) + '&desc=' + encodeURIComponent(page_description) + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension">' + parseInt(imgarr[i][1],10) + ' x ' + parseInt(imgarr[i][2],10) + '</div><img src="' + imgarr[i][0] + '" /></div>';
 				} else {
-					imgstr += '<div class="ipinimgwrapper" data-href="' + ipinsiteurl + 'itm-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(document.URL.replace('http','')) + '&t=' + encodeURIComponent(page_title) + '&desc=' + encodeURIComponent(page_description) + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension"> Video </div><img src="' + imgarr[i][0] + '" /></div>';
+					imgstr += '<div class="ipinimgwrapper" data-href="' + ipinsiteurl + 'pins-settings/?m=bm&imgsrc=' + encodeURIComponent(imgarr[i][0].replace('http','')) + '&source=' + encodeURIComponent(document.URL.replace('http','')) + '&t=' + encodeURIComponent(page_title) + '&desc=' + encodeURIComponent(page_description) + '&video=' + videoflag + '"><div class="ipinbutton">+</div><div class="ipindimension"> Video </div><img src="' + imgarr[i][0] + '" /></div>';
 				}
 			}
 			jQuery('#ipinframebg p').fadeOut(200);
