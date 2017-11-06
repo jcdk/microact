@@ -178,6 +178,7 @@
 	<div id="top-message-wrapper">
 		<div id="top-message" class="container">
 			<div class="pull-right">
+                Hi, there! MicroAct is a space for sharing the small actions that change everything.
 				<a class="btn btn-success" href="<?php echo home_url('/signup/'); ?>"><?php _e('Sign Up', 'ipin'); ?></a>
 			</div>
 			<div class="top-message-left"><?php eval('?>' . of_get_option('top_message')); ?></div>
