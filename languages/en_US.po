@@ -23,6 +23,14 @@ msgstr ""
 msgid "Oops... the page you requested could not be found."
 msgstr ""
 
+#: author.php:58
+msgid "Most Followers"
+msgstr ""
+
+#: author.php:62
+msgid "Most Pins"
+msgstr "Most Microacts"
+
 #: author.php:99 header.php:97
 msgid "Board"
 msgstr "Stack"
