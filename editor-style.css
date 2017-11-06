@@ -3,5 +3,8 @@
 
 body#tinymce.wp-editor { 
 background: #fff;
-padding: 5px;
+padding: 25px;
+width: 700px;
+border: 1px solid #ccc;
+margin: 0 auto;
 }

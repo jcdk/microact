@@ -2,9 +2,9 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-9">
+		<div class="col-sm-8">
 			<div class="row">
-				<div id="double-left-column" class="col-sm-8">
+				<div class="col-sm-12">
 					<?php while (have_posts()) : the_post(); ?>
 					<div id="post-<?php the_ID(); ?>" <?php post_class('post-wrapper'); ?>>
 						<div class="h1-wrapper">
@@ -12,8 +12,10 @@
 						</div>		
 
 						<div class="post-content">
+							<div class="thecontent">
+							<?php the_content(); ?>
+							</div>
 							<?php
-							the_content();
 							wp_link_pages( array( 'before' => '<p><strong>' . __('Pages:', 'ipin') . '</strong>', 'after' => '</p>' ) );
 							edit_post_link(__('Edit Page', 'ipin'),'<p>[ ',' ]</p>');
 							?>
@@ -28,15 +30,11 @@
 					</div>
 					<?php endwhile; ?>
 				</div>
-				
-				<div id="single-right-column" class="col-sm-4">
-					<?php get_sidebar('left'); ?>
-				</div>
 			</div>
 		</div>
 		
-		<div class="col-sm-3">
-			<?php get_sidebar('right'); ?>
+		<div class="col-sm-4">
+			<?php get_sidebar('others'); ?>
 		</div>
 	</div>
 </div>

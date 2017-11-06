@@ -1,0 +1,1430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iPin Pro\n"
+"POT-Creation-Date: 2014-01-28 07:29+0800\n"
+"PO-Revision-Date: 2014-04-08 14:11-0500\n"
+"Last-Translator: christo <doge@microact.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "404 Error: Page Not Found"
+msgstr ""
+
+#: 404.php:11
+msgid "Oops... the page you requested could not be found."
+msgstr ""
+
+#: author.php:99 header.php:97
+msgid "Board"
+msgstr "Stack"
+
+#: author.php:99 header.php:109 search.php:12 taxonomy-board.php:26
+msgid "Boards"
+msgstr "Stacks"
+
+#: author.php:100 header.php:96
+msgid "Pin"
+msgstr "Microact"
+
+#: author.php:100 header.php:110 search.php:8
+msgid "Pins"
+msgstr "Microacts"
+
+#: author.php:101 index-masonry.php:55 index-masonry.php:176
+#: page_source.php:91 page_source.php:212 single-masonry.php:128
+#: single-masonry.php:249 single-pin.php:91
+msgid "Like"
+msgstr ""
+
+#: author.php:101 functions.php:716 header.php:111 single-pin.php:426
+msgid "Likes"
+msgstr ""
+
+#: author.php:102
+msgid "Follower"
+msgstr ""
+
+#: author.php:102
+msgid "Followers"
+msgstr ""
+
+#: author.php:103 functions.php:3092 header.php:137
+msgid "Following"
+msgstr ""
+
+#: author.php:106 author.php:174 author.php:331 search.php:143 search.php:204
+#: sidebar-left.php:99 single-pin.php:19 single-pin.php:302
+#: taxonomy-board.php:40
+msgid "Follow"
+msgstr ""
+
+#: author.php:106 author.php:174 author.php:331 search.php:143 search.php:204
+#: sidebar-left.php:99 single-pin.php:19 single-pin.php:302
+#: taxonomy-board.php:40
+msgid "Unfollow"
+msgstr ""
+
+#: author.php:108
+msgid "Edit Profile"
+msgstr ""
+
+#: author.php:112
+msgid "Edit User"
+msgstr ""
+
+#: author.php:143 author.php:364 index-masonry.php:288 page_source.php:324
+#: search.php:176 search.php:274
+msgid "Nothing yet."
+msgstr ""
+
+#: author.php:176 search.php:206
+msgid "Myself!"
+msgstr ""
+
+#: author.php:197 author.php:199 author.php:344 category-blog.php:74
+#: index-masonry.php:302 page_cp_notifications.php:102 page_source.php:339
+#: search.php:156 search.php:225 single-masonry.php:370
+msgid "&laquo; Previous"
+msgstr ""
+
+#: author.php:207 author.php:209 author.php:350 category-blog.php:75
+#: index-masonry.php:303 page_cp_notifications.php:108 page_source.php:345
+#: search.php:162 search.php:231 single-masonry.php:376
+msgid "Next &raquo;"
+msgstr ""
+
+#: author.php:223
+msgid "No one following yet."
+msgstr ""
+
+#: author.php:225
+msgid "Not following anyone yet."
+msgstr ""
+
+#: author.php:269 page_cp_notifications.php:71 page_cp_notifications.php:75
+#: page_cp_notifications.php:82 search.php:79 sidebar-left.php:44
+msgid "pin"
+msgstr "microact"
+
+#: author.php:269 search.php:79 sidebar-left.php:44
+msgid "pins"
+msgstr "microact"
+
+#: author.php:333 page_cp_boards.php:23 search.php:145 sidebar-left.php:101
+#: taxonomy-board.php:44
+msgid "Edit Board"
+msgstr "Edit Stack"
+
+#: author.php:358 category-blog.php:92 index-masonry.php:308 page.php:45
+#: page_cp_boards.php:54 page_cp_boards.php:101 page_cp_login.php:104
+#: page_cp_login_lpw.php:262 page_cp_notifications.php:119
+#: page_cp_pins.php:111 page_cp_pins.php:335 page_cp_pins.php:499
+#: page_cp_register.php:313 page_cp_settings.php:435 page_full_width.php:41
+#: page_no_sidebar.php:51 page_source.php:352 search.php:170
+#: single-blog.php:91 single-masonry.php:383
+msgid "Top"
+msgstr ""
+
+#: category-blog.php:15 single-blog.php:15
+msgid "0 Comments"
+msgstr ""
+
+#: category-blog.php:15 single-blog.php:15
+msgid "1 Comment"
+msgstr ""
+
+#: category-blog.php:15 single-blog.php:15
+msgid "% Comments"
+msgstr ""
+
+#: category-blog.php:15 index-masonry.php:57 index-masonry.php:178
+#: page_source.php:93 page_source.php:214 single-blog.php:15
+#: single-masonry.php:130 single-masonry.php:251 single-pin.php:93
+msgid "Edit"
+msgstr ""
+
+#: category-blog.php:31 page.php:19 page_full_width.php:24
+#: page_no_sidebar.php:25 single-blog.php:31 single-pin.php:247
+msgid "Pages:"
+msgstr ""
+
+#: category-blog.php:40 functions.php:3149 single-blog.php:40
+msgid "Categories"
+msgstr ""
+
+#: category-blog.php:51 search.php:14 single-blog.php:51
+msgid "Tags"
+msgstr ""
+
+#: comments.php:15
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:30 index-masonry.php:268 page_source.php:304
+#: single-masonry.php:341
+msgid "X Cancel reply"
+msgstr ""
+
+#: comments.php:34 index-masonry.php:272 page_source.php:308
+#: single-masonry.php:345
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:35 index-masonry.php:273 page_source.php:309
+#: single-masonry.php:346
+msgid "Add a comment..."
+msgstr ""
+
+#: comments.php:41
+msgid "Login to comment..."
+msgstr ""
+
+#: comments.php:41 functions.php:718 functions.php:3020 header.php:122
+#: header.php:175 page_cp_login.php:29 page_cp_login.php:91
+msgid "Login"
+msgstr ""
+
+#: functions.php:4
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:126
+msgid "Board by"
+msgstr "Stack by"
+
+#: functions.php:131 page_source.php:21
+msgid "Pins from"
+msgstr "Microacts from"
+
+#: functions.php:146 header.php:209
+msgid "Tag:"
+msgstr ""
+
+#: functions.php:150 taxonomy-board.php:30
+msgid "Category:"
+msgstr ""
+
+#: functions.php:154 header.php:198
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:260
+msgid "Email not verified. Please check your email for verification link."
+msgstr ""
+
+#: functions.php:275 page_cp_login_lpw.php:62 page_cp_register.php:37
+#: page_cp_register.php:147
+msgid "<strong>ERROR</strong>: Incorrect Captcha."
+msgstr ""
+
+#: functions.php:666 page_cp_pins.php:41 page_cp_pins.php:265
+#: page_cp_pins.php:430
+msgid "Describe your pin..."
+msgstr "Describe your micro act..."
+
+#: functions.php:668 page_cp_pins.php:43 page_cp_pins.php:267
+#: page_cp_pins.php:432
+msgid "Title..."
+msgstr ""
+
+#: functions.php:668 page_cp_pins.php:44 page_cp_pins.php:268
+#: page_cp_pins.php:433
+msgid "Description..."
+msgstr ""
+
+#: functions.php:672 page_cp_pins.php:49 page_cp_pins.php:273
+#: page_cp_pins.php:438
+msgid "Allowed HTML tags:"
+msgstr ""
+
+#: functions.php:676 page_cp_pins.php:64 page_cp_pins.php:280
+#: page_cp_pins.php:445
+msgid "Tags e.g. comma, separated"
+msgstr ""
+
+#: functions.php:681 functions.php:683 page_cp_pins.php:71 page_cp_pins.php:77
+#: page_cp_pins.php:287 page_cp_pins.php:293 page_cp_pins.php:452
+#: page_cp_pins.php:458
+msgid "Price e.g. 23.45"
+msgstr ""
+
+#: functions.php:688 functions.php:690 page_cp_pins.php:91 page_cp_pins.php:93
+#: page_cp_pins.php:318 page_cp_pins.php:320 page_cp_pins.php:482
+#: page_cp_pins.php:484
+msgid "Category for New Board"
+msgstr "Category for New Stack"
+
+#: functions.php:701
+msgid "All items loaded"
+msgstr ""
+
+#: functions.php:702
+msgid "Add Another Pin"
+msgstr "Add Another Microact"
+
+#: functions.php:703 page_cp_pins.php:96 page_cp_pins.php:323
+#: page_cp_pins.php:487
+msgid "Add new board..."
+msgstr "Add new stack..."
+
+#: functions.php:704
+msgid "Board already exists. Please try another title."
+msgstr "Stack already exists. Please try another title."
+
+#: functions.php:705
+msgid "Error. Please try again."
+msgstr ""
+
+#: functions.php:706 page_cp_boards.php:110 page_cp_pins.php:508
+#: page_cp_settings.php:449
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:707
+msgid "Close"
+msgstr ""
+
+#: functions.php:708 index-masonry.php:156 page_source.php:192
+#: single-masonry.php:229
+msgid "comment"
+msgstr ""
+
+#: functions.php:709 index-masonry.php:158 page_source.php:194
+#: single-masonry.php:231
+msgid "comments"
+msgstr ""
+
+#: functions.php:710 page_cp_pins.php:88 page_cp_pins.php:315
+#: page_cp_pins.php:479
+msgid "Enter new board title"
+msgstr "Enter new stack title"
+
+#: functions.php:711
+msgid "Forgot?"
+msgstr ""
+
+#: functions.php:712
+msgid "Incorrect Username or Password"
+msgstr ""
+
+#: functions.php:713
+msgid "Invalid image file. Please choose a JPG/GIF/PNG file."
+msgstr ""
+
+#: functions.php:714 index-masonry.php:148 page_source.php:184
+#: single-masonry.php:221
+msgid "like"
+msgstr ""
+
+#: functions.php:715 index-masonry.php:150 page_source.php:186
+#: single-masonry.php:223
+msgid "likes"
+msgstr ""
+
+#: functions.php:717
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:719
+msgid "Please login or register here"
+msgstr ""
+
+#: functions.php:720 index-masonry.php:198 page_source.php:234
+#: single-masonry.php:271 single-pin.php:470
+msgid "onto"
+msgstr ""
+
+#: functions.php:721
+msgid "or"
+msgstr ""
+
+#: functions.php:722 page_cp_login.php:69 page_cp_register.php:259
+#: page_cp_settings.php:338
+msgid "Password"
+msgstr ""
+
+#: functions.php:723 page_cp_pins.php:326 page_cp_pins.php:490
+msgid "Pin It"
+msgstr "Add Microact"
+
+#: functions.php:724
+msgid "Pinned to"
+msgstr "Replicated to"
+
+#: functions.php:725
+msgid "Please enter a title"
+msgstr ""
+
+#: functions.php:726
+msgid "Please enter both username and password."
+msgstr ""
+
+#: functions.php:727
+msgid "Please enter url"
+msgstr ""
+
+#: functions.php:728
+msgid "Register Account"
+msgstr ""
+
+#: functions.php:729 index-masonry.php:164 page_source.php:200
+#: single-masonry.php:237
+msgid "repin"
+msgstr "replicate"
+
+#: functions.php:730 index-masonry.php:166 page_source.php:202
+#: single-masonry.php:239
+msgid "repins"
+msgstr "replications"
+
+#: functions.php:731 single-pin.php:454
+msgid "Repins"
+msgstr "Replications"
+
+#: functions.php:732
+msgid "Repinned to"
+msgstr "Replicated to"
+
+#: functions.php:733
+msgid "See This Pin"
+msgstr "See This Microact"
+
+#: functions.php:734
+msgid "Share it with your friends"
+msgstr ""
+
+#: functions.php:735
+msgid "Sorry, unable to find any pinnable items."
+msgstr "Sorry, unable to find any replicable micro acts."
+
+#: functions.php:736 page_cp_login.php:66 page_cp_login_lpw.php:211
+msgid "Username or Email"
+msgstr ""
+
+#: functions.php:737
+msgid "Video"
+msgstr ""
+
+#: functions.php:738
+msgid "Welcome"
+msgstr ""
+
+#: functions.php:739
+msgid "Your pin is pending review"
+msgstr "Your micro act is pending review"
+
+#: functions.php:884
+#, php-format
+msgid "%s min ago"
+msgstr ""
+
+#: functions.php:886
+#, php-format
+msgid "%s mins ago"
+msgstr ""
+
+#: functions.php:895
+#, php-format
+msgid "%s hour ago"
+msgstr ""
+
+#: functions.php:897
+#, php-format
+msgid "%s hours ago"
+msgstr ""
+
+#: functions.php:906
+#, php-format
+msgid "%s day ago"
+msgstr ""
+
+#: functions.php:908
+#, php-format
+msgid "%s days ago"
+msgstr ""
+
+#: functions.php:935 header.php:26 single-pin.php:304
+msgid "Pinned onto"
+msgstr "Replicated onto"
+
+#: functions.php:980
+msgid "Reply"
+msgstr ""
+
+#: functions.php:995
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1150
+#, php-format
+msgid "%s repinned your \"%s\" pin at %s"
+msgstr "%s replicated your \"%s\" pin at %s"
+
+#: functions.php:1152 functions.php:1246 functions.php:1383 functions.php:1534
+#, php-format
+msgid "To change your notification settings, visit %s"
+msgstr ""
+
+#: functions.php:1153
+#, php-format
+msgid "[%s] Someone repinned your pin"
+msgstr "[%s] Someone replicated your microact"
+
+#: functions.php:1183 page_cp_pins.php:308 page_cp_pins.php:473
+msgid "Add a new board first..."
+msgstr "Add a new stack first..."
+
+#: functions.php:1244
+#, php-format
+msgid "%s likes your \"%s\" pin at %s"
+msgstr "%s likes your \"%s\" microact at %s"
+
+#: functions.php:1247
+#, php-format
+msgid "[%s] Someone likes your pin"
+msgstr "[%s] Someone likes your microact"
+
+#: functions.php:1381
+#, php-format
+msgid "%s is now following you. View %s's profile at %s"
+msgstr ""
+
+#: functions.php:1384
+#, php-format
+msgid "[%s] Someone is following you"
+msgstr ""
+
+#: functions.php:1532
+#, php-format
+msgid "%s commented on your \"%s\" pin at %s"
+msgstr "%s commented on your \"%s\" microact at %s"
+
+#: functions.php:1535
+#, php-format
+msgid "[%s] Someone commented on your pin"
+msgstr "[%s] Someone commented on your microact"
+
+#: functions.php:1542
+#, php-format
+msgid "New comment on the pin \"%s\""
+msgstr "New comment on the microact \"%s\""
+
+#: functions.php:1543
+#, php-format
+msgid "Author : %1$s (IP: %2$s , %3$s)"
+msgstr ""
+
+#: functions.php:1544
+#, php-format
+msgid "E-mail : %s"
+msgstr ""
+
+#: functions.php:1545
+#, php-format
+msgid "URL    : %s"
+msgstr ""
+
+#: functions.php:1546
+#, php-format
+msgid "Whois  : http://whois.arin.net/rest/ip/%s"
+msgstr ""
+
+#: functions.php:1547
+msgid "Comment:"
+msgstr ""
+
+#: functions.php:1548
+msgid "You can see all comments on this pin here:"
+msgstr "You can see all comments on this microact here:"
+
+#: functions.php:1550
+#, php-format
+msgid "Permalink: %s"
+msgstr ""
+
+#: functions.php:1551
+#, php-format
+msgid "Delete it: %s"
+msgstr ""
+
+#: functions.php:1552
+#, php-format
+msgid "Spam it: %s"
+msgstr ""
+
+#: functions.php:1553
+#, php-format
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr ""
+
+#: functions.php:2903 functions.php:2916
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: functions.php:2904 functions.php:2917
+#, php-format
+msgid "%s wants to share \"%s\" with you."
+msgstr ""
+
+#: functions.php:2906 functions.php:2919
+#, php-format
+msgid "%s said, \"%s\"."
+msgstr ""
+
+#: functions.php:2908 functions.php:2949 functions.php:2950
+#, php-format
+msgid "View pin at %s"
+msgstr "View microact at %s"
+
+#: functions.php:2909 functions.php:2922
+#, php-format
+msgid "View %s's profile at %s"
+msgstr ""
+
+#: functions.php:2911
+#, php-format
+msgid "%s wants to share a pin with you from %s"
+msgstr "%s wants to share a microact with you from %s"
+
+#: functions.php:2921
+#, php-format
+msgid "View board at %s"
+msgstr "View stack at %s"
+
+#: functions.php:2924
+#, php-format
+msgid "%s wants to share a board with you from %s"
+msgstr ""
+
+#: functions.php:2944
+#, php-format
+msgid "User(%s) reported the \"%s\" pin."
+msgstr "User(%s) reported the \"%s\" microact."
+
+#: functions.php:2946
+#, php-format
+msgid "An unregistered user reported the \"%s\" pin."
+msgstr "An unregistered user reported the \"%s\" microact."
+
+#: functions.php:2948
+#, php-format
+msgid "Message: %s"
+msgstr ""
+
+#: functions.php:2951
+#, php-format
+msgid "[%s] Someone reported a pin"
+msgstr "[%s] Someone reported a microact"
+
+#: functions.php:3008
+msgid "Boards Settings"
+msgstr "Stacks Settings"
+
+#: functions.php:3032 page_cp_login_lpw.php:200
+msgid "Lost Your Password?"
+msgstr ""
+
+#: functions.php:3044
+msgid "Pins Settings"
+msgstr "Microact Settings"
+
+#: functions.php:3056 header.php:121 page_cp_register.php:240
+#: page_cp_register.php:300
+msgid "Register"
+msgstr ""
+
+#: functions.php:3068 header.php:112 page_cp_settings.php:280
+msgid "Settings"
+msgstr ""
+
+#: functions.php:3080 functions.php:3160
+msgid "Everything"
+msgstr ""
+
+#: functions.php:3104 functions.php:3154
+msgid "Popular"
+msgstr ""
+
+#: functions.php:3116 single-pin.php:510
+msgid "Source"
+msgstr ""
+
+#: functions.php:3129 functions.php:3214 header.php:108
+#: page_cp_notifications.php:32
+msgid "Notifications"
+msgstr ""
+
+#: header.php:19
+msgid "Untitled"
+msgstr ""
+
+#: header.php:26
+msgid "Board in"
+msgstr ""
+
+#: header.php:26 header.php:242 page_cp_boards.php:31 page_cp_boards.php:81
+msgid "Category"
+msgstr ""
+
+#: header.php:94
+msgid "Add"
+msgstr ""
+
+#: header.php:114
+msgid "WP Admin"
+msgstr ""
+
+#: header.php:116
+msgid "Logout"
+msgstr ""
+
+#: header.php:124
+msgid "Register / Login"
+msgstr ""
+
+#: header.php:148
+msgid "Find us on Facebook"
+msgstr ""
+
+#: header.php:152
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: header.php:155
+msgid "Subscribe to our RSS Feed"
+msgstr ""
+
+#: header.php:158 searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: header.php:174
+msgid "Join Now"
+msgstr ""
+
+#: header.php:244
+msgid "All"
+msgstr ""
+
+#: index-masonry.php:52 index-masonry.php:173 page_source.php:88
+#: page_source.php:209 single-masonry.php:125 single-masonry.php:246
+#: single-pin.php:88
+msgid "Repin"
+msgstr "Replicate"
+
+#: index-masonry.php:59 index-masonry.php:180 page_source.php:95
+#: page_source.php:216 single-masonry.php:132 single-masonry.php:253
+msgid "Comment"
+msgstr ""
+
+#: index-masonry.php:193 page_source.php:229 single-masonry.php:266
+#: single-pin.php:510
+msgid "via"
+msgstr ""
+
+#: ipin_fetch.php:65 ipin_fetch.php:69
+msgid "Invalid content"
+msgstr ""
+
+#: page.php:20 page_full_width.php:25 page_no_sidebar.php:26
+msgid "Edit Page"
+msgstr ""
+
+#: page_cp_boards.php:28 page_cp_boards.php:78
+msgid "Title"
+msgstr ""
+
+#: page_cp_boards.php:34 page_cp_boards.php:36 page_cp_boards.php:84
+#: page_cp_boards.php:86
+msgid "Select a Category"
+msgstr ""
+
+#: page_cp_boards.php:44 page_cp_settings.php:405
+msgid "Save Settings"
+msgstr ""
+
+#: page_cp_boards.php:48 page_cp_boards.php:111
+msgid "Delete Board"
+msgstr ""
+
+#: page_cp_boards.php:60
+msgid "No boards found."
+msgstr ""
+
+#: page_cp_boards.php:73 page_cp_boards.php:93
+msgid "Add Board"
+msgstr "Add Stack"
+
+#: page_cp_boards.php:107
+msgid "All pins on this board will also be deleted."
+msgstr "All microacts on this board will also be deleted."
+
+#: page_cp_boards.php:107
+msgid "Are you sure you want to permanently delete this board?"
+msgstr ""
+
+#: page_cp_login.php:32
+msgid "Logged Out Successfully"
+msgstr ""
+
+#: page_cp_login.php:42
+msgid "Your password has been reset."
+msgstr ""
+
+#: page_cp_login.php:44
+msgid "User registration is currently closed."
+msgstr ""
+
+#: page_cp_login.php:46
+msgid "To activate account, please check your email for verification link."
+msgstr ""
+
+#: page_cp_login.php:48
+msgid ""
+"Account not activated yet. Please check your email for verification link."
+msgstr ""
+
+#: page_cp_login.php:55
+msgid "Verification success. You may login now."
+msgstr ""
+
+#: page_cp_login.php:57 page_cp_settings.php:323
+msgid "Invalid verification key"
+msgstr ""
+
+#: page_cp_login.php:60
+msgid "Incorrect Username/Password"
+msgstr ""
+
+#: page_cp_login.php:60
+msgid "/Captcha"
+msgstr ""
+
+#: page_cp_login.php:95
+msgid "Register account"
+msgstr ""
+
+#: page_cp_login.php:96
+msgid "Lost your password?"
+msgstr ""
+
+#: page_cp_login_lpw.php:30 page_cp_register.php:128
+msgid "Password cannot be blank."
+msgstr ""
+
+#: page_cp_login_lpw.php:34
+msgid "Passwords must be at least 6 characters long."
+msgstr ""
+
+#: page_cp_login_lpw.php:38 page_cp_register.php:134
+msgid "The passwords do not match."
+msgstr ""
+
+#: page_cp_login_lpw.php:67
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: page_cp_login_lpw.php:71
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: page_cp_login_lpw.php:88
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: page_cp_login_lpw.php:125
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: page_cp_login_lpw.php:150
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: page_cp_login_lpw.php:152 page_cp_register.php:48 page_cp_register.php:72
+#: page_cp_register.php:185
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: page_cp_login_lpw.php:153
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: page_cp_login_lpw.php:154
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: page_cp_login_lpw.php:164
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: page_cp_login_lpw.php:185
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: page_cp_login_lpw.php:185
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: page_cp_login_lpw.php:205
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: page_cp_login_lpw.php:207
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: page_cp_login_lpw.php:231
+msgid "Get New Password"
+msgstr ""
+
+#: page_cp_login_lpw.php:234
+msgid "You will receive a link to create a new password via email."
+msgstr ""
+
+#: page_cp_login_lpw.php:237
+msgid "Reset Password"
+msgstr ""
+
+#: page_cp_login_lpw.php:244
+msgid "New password"
+msgstr ""
+
+#: page_cp_login_lpw.php:247
+msgid "Confirm new password"
+msgstr ""
+
+#: page_cp_notifications.php:33
+msgid "Only notifications from last 30 days are available for viewing"
+msgstr ""
+
+#: page_cp_notifications.php:37
+msgid "No Notifications Yet."
+msgstr ""
+
+#: page_cp_notifications.php:70
+msgid "likes your"
+msgstr ""
+
+#: page_cp_notifications.php:74
+msgid "repinned your"
+msgstr "replicated your"
+
+#: page_cp_notifications.php:78
+msgid "is following you"
+msgstr ""
+
+#: page_cp_notifications.php:81
+msgid "commented on your"
+msgstr ""
+
+#: page_cp_pins.php:31
+msgid "Edit Pin"
+msgstr "Edit Microact"
+
+#: page_cp_pins.php:84 page_cp_pins.php:300 page_cp_pins.php:465
+msgid "Source e.g. http://domain.com/link"
+msgstr ""
+
+#: page_cp_pins.php:100
+msgid "Save Pin"
+msgstr "Save Microact"
+
+#: page_cp_pins.php:105 page_cp_pins.php:509
+msgid "Delete Pin"
+msgstr "Delete Microact"
+
+#: page_cp_pins.php:117
+msgid "No pins found."
+msgstr "No microacts found."
+
+#: page_cp_pins.php:232
+msgid "Invalid image file."
+msgstr ""
+
+#: page_cp_pins.php:235
+msgid "Unable to fetch image from remote site"
+msgstr ""
+
+#: page_cp_pins.php:237
+msgid "Please save image onto computer and upload from computer."
+msgstr ""
+
+#: page_cp_pins.php:255 page_cp_pins.php:346
+msgid "Add Pin"
+msgstr "Add Microact"
+
+#: page_cp_pins.php:353
+msgid "From Computer"
+msgstr "From mobile device or computer"
+
+#: page_cp_pins.php:367
+msgid "From Web"
+msgstr ""
+
+#: page_cp_pins.php:393
+msgid "Pin It Bookmarklet"
+msgstr "Browser Bookmarklet"
+
+#: page_cp_pins.php:395
+msgid ""
+"Drag the orange button to your bookmarks/favorites toolbar. Then click to "
+"pin an image from any website. You can also pin videos from youtube.com and "
+"vimeo.com."
+msgstr ""
+"Drag the orange button to your bookmarks/favorites toolbar. Then click to "
+"copy (or replicate) an image from any website. You can also replicate videos "
+"from youtube.com and vimeo.com."
+
+#: page_cp_pins.php:413
+msgid "Pin It Button"
+msgstr "Replicate This Button"
+
+#: page_cp_pins.php:416 page_cp_pins.php:420
+msgid ""
+"Make it easy for people to pin from your site. Copy the code below and paste "
+"it where you want the button to appear on your website."
+msgstr ""
+"Make it easy for people to replicate microacts from your site. Copy the code "
+"below and paste it where you want the button to appear on your website."
+
+#: page_cp_pins.php:505
+msgid "Are you sure you want to permanently delete this pin?"
+msgstr "Are you sure you want to permanently delete this microact?"
+
+#: page_cp_register.php:26
+msgid "<strong>ERROR</strong>: Enter email address."
+msgstr ""
+
+#: page_cp_register.php:47 page_cp_register.php:71 page_cp_register.php:184
+#, php-format
+msgid "Thank you for registering with %s."
+msgstr ""
+
+#: page_cp_register.php:49 page_cp_register.php:73 page_cp_register.php:187
+#: page_cp_settings.php:218
+msgid "Please click the link to verify your email:"
+msgstr ""
+
+#: page_cp_register.php:52 page_cp_register.php:76 page_cp_register.php:190
+#, php-format
+msgid "[%s] Account Registration"
+msgstr ""
+
+#: page_cp_register.php:56 page_cp_register.php:80
+msgid "<strong>ERROR</strong>: Account is already activated."
+msgstr ""
+
+#: page_cp_register.php:59 page_cp_register.php:83
+msgid "<strong>ERROR</strong>: Email not found."
+msgstr ""
+
+#: page_cp_register.php:108 page_cp_settings.php:21 page_cp_settings.php:160
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: page_cp_register.php:110 page_cp_settings.php:23 page_cp_settings.php:195
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: page_cp_register.php:113 page_cp_settings.php:26 page_cp_settings.php:198
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: page_cp_register.php:118
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: page_cp_register.php:120 page_cp_settings.php:205
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: page_cp_register.php:123 page_cp_settings.php:207
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: page_cp_register.php:153
+msgid "Antispam field is incorrect."
+msgstr ""
+
+#: page_cp_register.php:168
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: page_cp_register.php:186
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: page_cp_register.php:205
+msgid "Resend Activation Email"
+msgstr ""
+
+#: page_cp_register.php:208
+msgid "Please check your email for activation."
+msgstr ""
+
+#: page_cp_register.php:214 page_cp_register.php:256 page_cp_settings.php:330
+#: single-pin.php:76 single-pin.php:199
+msgid "Email"
+msgstr ""
+
+#: page_cp_register.php:234
+msgid "Resend"
+msgstr ""
+
+#: page_cp_register.php:237
+msgid "Check your junk/spam folder if you did not receive the activation email"
+msgstr ""
+
+#: page_cp_register.php:253
+msgid "Username"
+msgstr ""
+
+#: page_cp_register.php:262 page_cp_settings.php:341
+msgid "Confirm Password"
+msgstr ""
+
+#: page_cp_register.php:293
+msgid "I Agree To The"
+msgstr ""
+
+#: page_cp_register.php:295
+msgid "Terms of Service"
+msgstr ""
+
+#: page_cp_register.php:304
+msgid "Resend activation email"
+msgstr ""
+
+#: page_cp_settings.php:109
+msgid "You can&#8217;t give users that role."
+msgstr ""
+
+#: page_cp_settings.php:167 page_cp_settings.php:169
+msgid "<strong>ERROR</strong>: You entered your new password only once."
+msgstr ""
+
+#: page_cp_settings.php:178
+msgid "<strong>ERROR</strong>: Please enter your password."
+msgstr ""
+
+#: page_cp_settings.php:180
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr ""
+
+#: page_cp_settings.php:185
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+
+#: page_cp_settings.php:189
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the two password "
+"fields."
+msgstr ""
+
+#: page_cp_settings.php:203
+msgid "<strong>ERROR</strong>: Please enter an email address."
+msgstr ""
+
+#: page_cp_settings.php:222
+#, php-format
+msgid "[%s] Email Verification"
+msgstr ""
+
+#: page_cp_settings.php:301
+msgid "Change Profile Username? (Days Left:"
+msgstr ""
+
+#: page_cp_settings.php:304
+msgid "Change"
+msgstr ""
+
+#: page_cp_settings.php:305
+msgid ""
+"You will be logged out upon successful changing of username. Please login "
+"again with"
+msgstr ""
+
+#: page_cp_settings.php:313
+msgid "Settings Saved."
+msgstr ""
+
+#: page_cp_settings.php:317
+msgid ""
+"Your email will be changed upon verification. Please check your new email "
+"for verification link."
+msgstr ""
+
+#: page_cp_settings.php:321
+msgid "Your email has been verified and updated."
+msgstr ""
+
+#: page_cp_settings.php:334 page_cp_settings.php:382
+msgid "Invalid email provided by"
+msgstr ""
+
+#: page_cp_settings.php:334 page_cp_settings.php:382
+msgid "Please enter a valid email to receive email notifications."
+msgstr ""
+
+#: page_cp_settings.php:343
+msgid ""
+"If you would like to change the password, type a new one. Otherwise leave "
+"them blank."
+msgstr ""
+
+#: page_cp_settings.php:350
+msgid "Profile"
+msgstr ""
+
+#: page_cp_settings.php:350
+msgid "See Your Public Profile"
+msgstr ""
+
+#: page_cp_settings.php:353
+msgid "Display Name"
+msgstr ""
+
+#: page_cp_settings.php:356
+msgid "About"
+msgstr ""
+
+#: page_cp_settings.php:359
+msgid "Location"
+msgstr ""
+
+#: page_cp_settings.php:360
+msgid "city, country"
+msgstr ""
+
+#: page_cp_settings.php:362
+msgid "Website"
+msgstr ""
+
+#: page_cp_settings.php:363
+msgid "myweb.com"
+msgstr ""
+
+#: page_cp_settings.php:365
+msgid "Facebook Username"
+msgstr ""
+
+#: page_cp_settings.php:366
+msgid "myfb"
+msgstr ""
+
+#: page_cp_settings.php:368
+msgid "Twitter Username"
+msgstr ""
+
+#: page_cp_settings.php:369
+msgid "mytwitter"
+msgstr ""
+
+#: page_cp_settings.php:371
+msgid "Pinterest Username"
+msgstr ""
+
+#: page_cp_settings.php:372
+msgid "mypinterest"
+msgstr ""
+
+#: page_cp_settings.php:374
+msgid "Google+ ID"
+msgstr ""
+
+#: page_cp_settings.php:375
+msgid "+mygoogle or 123456789"
+msgstr ""
+
+#: page_cp_settings.php:380
+msgid "Email Notifications"
+msgstr ""
+
+#: page_cp_settings.php:387
+msgid "Notify when someone likes my pin"
+msgstr "Notify when someone likes my microact"
+
+#: page_cp_settings.php:391
+msgid "Notify when someone comments on my pin"
+msgstr "Notify when someone comments on my microact"
+
+#: page_cp_settings.php:395
+msgid "Notify when my pin is repinned"
+msgstr "Notify when my microact is replicated"
+
+#: page_cp_settings.php:399
+msgid "Notify when someone follows me"
+msgstr ""
+
+#: page_cp_settings.php:409
+msgid "Avatar"
+msgstr ""
+
+#: page_cp_settings.php:427 page_cp_settings.php:451
+msgid "Delete Account"
+msgstr ""
+
+#: page_cp_settings.php:442
+msgid "All data and profile will be deleted."
+msgstr ""
+
+#: page_cp_settings.php:442
+msgid "Are you sure you want to permanently delete this account?"
+msgstr ""
+
+#: page_cp_settings.php:444
+msgid ""
+"This is an administrator account. To delete this account, go to WP-Admin > "
+"Users."
+msgstr ""
+
+#: search.php:10
+msgid "My Own Pins"
+msgstr "My Own Microacts"
+
+#: search.php:16
+msgid "Users"
+msgstr ""
+
+#: search.php:243
+msgid "Nobody yet."
+msgstr ""
+
+#: sidebar-left.php:119 single-pin.php:379
+msgid "Also from"
+msgstr ""
+
+#: single-masonry.php:75
+msgid "Related Pins"
+msgstr "Related Microacts"
+
+#: single-pin.php:27
+msgid "Repinned"
+msgstr ""
+
+#: single-pin.php:30
+msgid "Pinned"
+msgstr ""
+
+#: single-pin.php:72 single-pin.php:197
+msgid "Embed"
+msgstr ""
+
+#: single-pin.php:80 single-pin.php:201
+msgid "Report"
+msgstr ""
+
+#: single-pin.php:111
+msgid "Zoom"
+msgstr ""
+
+#: single-pin.php:118
+msgid "Uploaded by user"
+msgstr ""
+
+#: single-pin.php:122
+msgid "From"
+msgstr ""
+
+#: single-pin.php:259
+msgid "Repinned from"
+msgstr "Replicated from"
+
+#: single-pin.php:262 single-pin.php:280
+msgid "by"
+msgstr ""
+
+#: single-pin.php:278
+msgid "Originally pinned onto"
+msgstr "Originally replicated onto"
+
+#: single-pin.php:439
+msgid "more likes"
+msgstr ""
+
+#: single-pin.php:479
+msgid "more repins"
+msgstr "more microacts"
+
+#: single-pin.php:503
+msgid "Embed Pin on Your Blog"
+msgstr ""
+
+#: single-pin.php:508
+msgid "px -Image Width"
+msgstr ""
+
+#: single-pin.php:509
+msgid "px -Image Height"
+msgstr ""
+
+#: single-pin.php:510
+msgid "on"
+msgstr ""
+
+#: single-pin.php:517
+msgid "Email This Pin"
+msgstr "Email This Stack"
+
+#: single-pin.php:521 taxonomy-board.php:82
+msgid "Recipient Name"
+msgstr ""
+
+#: single-pin.php:522 taxonomy-board.php:83
+msgid "Recipient Email"
+msgstr ""
+
+#: single-pin.php:524 taxonomy-board.php:85
+msgid "Message (optional)"
+msgstr ""
+
+#: single-pin.php:525 taxonomy-board.php:86
+msgid "Send Email"
+msgstr ""
+
+#: single-pin.php:533
+msgid "Report This Pin"
+msgstr "Report This Microact"
+
+#: single-pin.php:538
+msgid "Please write a little about why you want to report this pin."
+msgstr "Please write a little about why you want to report this microact."
+
+#: single-pin.php:539
+msgid "Report Pin"
+msgstr "Report Microact"
+
+#: taxonomy-board.php:26
+msgid "Pins From All"
+msgstr "Microact From All"
+
+#: taxonomy-board.php:78
+msgid "Email This Board"
+msgstr "Email This Stack"

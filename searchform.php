@@ -1,6 +1,6 @@
 <form class="form-inline" method="get" action="<?php echo home_url(); ?>/">
 	<div class="form-group">
-		<input class="form-control" type="text" value="<?php the_search_query(); ?>" name="s"  />
+		<input class="form-control" type="search" name="s" value="<?php the_search_query(); ?>" placeholder="<?php _e('Search', 'ipin'); ?>" />
 	</div>
-	<button class="btn btn-info" type="submit" /><?php _e('Search', 'ipin'); ?></button>
+	<button class="btn btn-success" type="submit"><strong><?php _e('Search', 'ipin'); ?></strong></button>
 </form>

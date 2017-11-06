@@ -181,7 +181,7 @@ class Options_Framework_Admin {
 	        return;
 
 		//edited: to work for theme instead of plugin
-		//wp_enqueue_style( 'optionsframework', plugin_dir_url( dirname(__FILE__) ) . 'css/optionsframework.css', array(),  Options_Framework::VERSION );		
+		//wp_enqueue_style( 'optionsframework', plugin_dir_url( dirname(__FILE__) ) . 'css/optionsframework.css', array(),  Options_Framework::VERSION );
 		wp_enqueue_style( 'optionsframework', get_template_directory_uri() . '/inc/css/optionsframework.css', array(),  Options_Framework::VERSION );
 		wp_enqueue_style( 'wp-color-picker' );
 	}
@@ -198,7 +198,7 @@ class Options_Framework_Admin {
 
 		// Enqueue custom option panel JS
 		//edited: to work for theme instead of plugin
-		//wp_enqueue_script( 'options-custom', plugin_dir_url( dirname(__FILE__) ) . '/js/options-custom.js', array( 'jquery','wp-color-picker' ), Options_Framework::VERSION );
+		//wp_enqueue_script( 'options-custom', plugin_dir_url( dirname(__FILE__) ) . 'js/options-custom.js', array( 'jquery','wp-color-picker' ), Options_Framework::VERSION );
 		wp_enqueue_script( 'options-custom', get_template_directory_uri() . '/inc/js/options-custom.js', array( 'jquery','wp-color-picker' ), Options_Framework::VERSION );
 
 		// Inline scripts from options-interface.php
