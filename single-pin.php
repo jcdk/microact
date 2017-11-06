@@ -219,7 +219,7 @@
 									<button class="btn btn-success btn-xs pull-right follow ipin-follow<?php if ($followed = ipin_followed(ipin_get_post_board()->term_id)) { echo ' disabled'; } ?>" data-author_id="<?php echo $post->post_author; ?>" data-board_id="<?php echo ipin_get_post_board()->term_id;  ?>" data-board_parent_id="<?php echo ipin_get_post_board()->parent; ?>" type="button"><?php if (!$followed) { _e('Follow Board', 'ipin'); } else { _e('Unfollow Board', 'ipin'); } ?></button>
 									</span>
 									<?php } else { ?>
-									<a class="btn btn-success btn-xs pull-right follow edit-board" href="<?php echo home_url('/grp-settings/?i=') . ipin_get_post_board()->term_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
+									<a class="btn btn-success btn-xs pull-right follow edit-board" href="<?php echo home_url('/boards-settings/?i=') . ipin_get_post_board()->term_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
 									<?php } ?>
 									<h4><?php _e('Pinned onto', 'ipin') ?> <?php the_terms($post->ID, 'board', '<span>', ', ', '</span>'); ?></h4>
 									<?php
@@ -305,7 +305,7 @@
 									<button class="btn btn-success btn-xs pull-right follow ipin-follow<?php if ($followed = ipin_followed($original_board[0]->term_id)) { echo ' disabled'; } ?>" data-author_id="<?php echo $original_author->ID; ?>" data-board_id="<?php echo $original_board[0]->term_id;  ?>" data-board_parent_id="<?php echo $original_board[0]->parent; ?>" type="button"><?php if (!$followed) { _e('Follow Board', 'ipin'); } else { _e('Unfollow Board', 'ipin'); } ?></button>
 									</span>
 									<?php } else { ?>
-									<a class="btn btn-success btn-xs pull-right follow edit-board" href="<?php echo home_url('/grp-settings/?i=') . $original_board[0]->term_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
+									<a class="btn btn-success btn-xs pull-right follow edit-board" href="<?php echo home_url('/boards-settings/?i=') . $original_board[0]->term_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
 									<?php } ?>
 									<h4><?php _e('Repinned from', 'ipin') ?> <a href="<?php echo $original_board_link; ?>"><?php echo $original_board[0]->name; ?></a></h4>
 									<?php

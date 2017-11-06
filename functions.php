@@ -3846,7 +3846,7 @@ function ipin_setup() {
 		//setup pages
 		$page= array(
 			'post_title' => 'Group Settings',
-			'post_name' => 'grp-settings',
+			'post_name' => 'boards-settings',
 			'post_author' => 1,
 			'post_status' => 'publish',
 			'post_type' => 'page',

@@ -407,7 +407,7 @@ if (isset($_GET['view']) && $_GET['view'] == sanitize_title(__('pins', 'ipin')))
 						<button class="btn btn-success btn-sm follow ipin-follow<?php if ($followed = ipin_followed($board_id)) { echo ' disabled'; } ?>" data-author_id="<?php echo $user_info->ID; ?>" data-board_id="<?php echo $board_id;  ?>" data-board_parent_id="<?php echo $board_parent_id; ?>" type="button"><?php if (!$followed) { _e('Follow Board', 'ipin'); } else { _e('Unfollow Board', 'ipin'); } ?></button>
 					</span>
 				<?php } else { ?>
-					<a class="btn btn-success btn-sm edit-board" href="<?php echo home_url('/grp-settings/?i=') . $board_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
+					<a class="btn btn-success btn-sm edit-board" href="<?php echo home_url('/boards-settings/?i=') . $board_id; ?>"><?php _e('Edit Board', 'ipin'); ?></a>
 				<?php } ?>
 			</div>
 		<?php } //end foreach	?>

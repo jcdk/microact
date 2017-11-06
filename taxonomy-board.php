@@ -6,7 +6,7 @@ if ($board_info->parent == 0) {
 	wp_redirect(get_author_posts_url(intval($board_info->name)), 301);
 }
 
-get_header(); 
+get_header();
 ?>
 
 <div class="container-fluid">
@@ -14,7 +14,7 @@ get_header();
 	$board_user_array = get_term_by('id', $board_info->parent, 'board');
 	$board_user = intval($board_user_array->name);
 	$category = get_category($board_info->description);
-	
+
 	if (!isset($board_user)) {
 		$board_user = $wpdb->get_var(
 			$wpdb->prepare(
@@ -33,7 +33,7 @@ get_header();
 		<?php echo $board_info->name; ?>
 		</h1>
 	</div>
-	
+
 	<div id="userbar" class="row">
 		<ul class="nav">
 			<li>
@@ -56,25 +56,25 @@ get_header();
 					<button type="button" class="btn btn-success btn-sm follow dropdown-toggle" data-toggle="dropdown">
 						<i class="fa fa-share-alt"></i> <span class="caret"></span>
 					</button>
-					
+
 					<ul class="dropdown-menu">
 						<li><a href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo rawurlencode(home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board']. '/'); ?>', 'facebook-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-facebook-square fa-lg fa-fw text-info"></i> <?php _e('Share on Facebook', 'ipin'); ?></a></li>
-						<li><a href="" onclick="window.open('https://twitter.com/share?url=<?php echo home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board'] . '/'; ?>&amp;text=<?php echo rawurlencode($board_info->name); ?>', 'twitter-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-twitter-square fa-lg fa-fw text-primary"></i> <?php _e('Share on Twitter', 'ipin'); ?></a></li>						
+						<li><a href="" onclick="window.open('https://twitter.com/share?url=<?php echo home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board'] . '/'; ?>&amp;text=<?php echo rawurlencode($board_info->name); ?>', 'twitter-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-twitter-square fa-lg fa-fw text-primary"></i> <?php _e('Share on Twitter', 'ipin'); ?></a></li>
 						<li><a href="" onclick="window.open('http://www.reddit.com/submit?url=<?php echo rawurlencode(home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board']. '/'); ?>&amp;title=<?php echo rawurlencode($board_info->name); ?>', 'reddit-share-dialog', 'width=880,height=500,scrollbars=1'); return false;"><i class="fa fa-reddit-square fa-lg fa-fw text-primary"></i> <?php _e('Share on Reddit', 'ipin'); ?></a></li>
-						<li><a href="" onclick="window.open('https://plus.google.com/share?url=<?php echo home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board'] . '/'; ?>', 'gplus-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-google-plus-square fa-lg fa-fw text-danger"></i> <?php _e('Share on Google+', 'ipin'); ?></a></li>	
+						<li><a href="" onclick="window.open('https://plus.google.com/share?url=<?php echo home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board'] . '/'; ?>', 'gplus-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-google-plus-square fa-lg fa-fw text-danger"></i> <?php _e('Share on Google+', 'ipin'); ?></a></li>
 						<li><a href="" onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo rawurlencode(home_url('/' . $wp_taxonomies["board"]->rewrite['slug'] . '/' . sanitize_title($board_info->name, '_') . '/') . $wp_query->query['board']. '/'); ?>&amp;media=<?php echo rawurlencode($imgsrc[0]); ?>&amp;description=<?php echo rawurlencode($board_info->name); ?>', 'pinterest-share-dialog', 'width=626,height=500'); return false;"><i class="fa fa-pinterest-square fa-lg fa-fw text-danger"></i> <?php _e('Share on Pinterest', 'ipin'); ?></a></li>
 					</ul>
 				</div>
-					
+
 				<?php if ($board_info->parent && ($board_user == $user_ID || current_user_can('edit_others_posts'))) { ?>
-				<button class="btn btn-success btn-sm edit-board follow" onclick="window.location='<?php echo home_url('/grp-settings/?i=') . $board_info->term_id; ?>'" type="button"><?php _e('Edit Board' , 'ipin'); ?></button>
+				<button class="btn btn-success btn-sm edit-board follow" onclick="window.location='<?php echo home_url('/boards-settings/?i=') . $board_info->term_id; ?>'" type="button"><?php _e('Edit Board' , 'ipin'); ?></button>
 				<?php } ?>
 			</li>
 		</ul>
 	</div>
-	
+
 	<div class="clearfix"><br /></div>
-<?php 
+<?php
 get_template_part('index', 'masonry');
 get_footer();
 ?>

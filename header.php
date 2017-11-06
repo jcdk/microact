@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 	<title><?php wp_title('', true, 'right'); if (!is_home() && !is_front_page()) echo ' | '; bloginfo( 'name' ); $site_description = get_bloginfo('description', 'display'); if ($site_description && (is_home() || is_front_page())) echo ' | ' . $site_description; ?></title>
-	<?php 
+	<?php
 	global $user_ID, $user_identity, $post;
 	if (is_single() && $post->post_content == '' && !function_exists('wpseo_init')) {
 		$meta_categories = get_the_category($post->ID);
-	
+
 		foreach ($meta_categories as $meta_category) {
 			$meta_category_name = $meta_category->name;
 		}
@@ -29,7 +29,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); ?>
 	<?php eval('?>' . of_get_option('header_scripts')); ?>
-	
+
 	<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/respond.min.js"></script>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -51,7 +51,7 @@
 	fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<?php } ?>
-	
+
 	<nav id="topmenu" class="navbar<?php if (of_get_option('color_scheme') == 'dark') echo ' navbar-inverse'; else echo ' navbar-default' ?> navbar-fixed-top">
 		<div class="container">
 			<div id="top-menu-right-mobile" class="visible-xs">
@@ -100,7 +100,7 @@
 						</a>
 					</li>
 					<li class="hidden-xs">
-						<a id="icon-add-board" rel="tooltip" data-placement="bottom" title="<?php _e('Add Board', 'ipin'); ?>" href="<?php echo home_url('/grp-settings/'); ?>">
+						<a id="icon-add-board" rel="tooltip" data-placement="bottom" title="<?php _e('Add Board', 'ipin'); ?>" href="<?php echo home_url('/boards-settings/'); ?>">
 							<span class="fa-stack">
 								<i class="fa fa-folder fa-stack-2x"></i>
 								<i class="fa fa-plus fa-stack-1x fa-inverse"></i>
@@ -113,7 +113,7 @@
 						<ul class="dropdown-menu">
 							<?php if (current_user_can('edit_posts')) { ?>
 							<li class="visible-xs"><a href="<?php echo home_url('/itm-settings/'); ?>"><?php _e('Add Pin', 'ipin'); ?></a></li>
-							<li class="visible-xs"><a href="<?php echo home_url('/grp-settings/'); ?>"><?php _e('Add Board', 'ipin'); ?></a></li>
+							<li class="visible-xs"><a href="<?php echo home_url('/boards-settings/'); ?>"><?php _e('Add Board', 'ipin'); ?></a></li>
 							<?php } ?>
 							<li><a href="<?php echo home_url('/following/'); ?>"><i class="fa fa-list-ul fa-fw hidden-xs"></i> <?php _e('Following Feed', 'ipin'); ?></a></li>
 							<li><a href="<?php echo get_author_posts_url($user_ID); ?>"><i class="fa fa-user fa-fw hidden-xs"></i> <?php _e('Profile &amp; Pins', 'ipin'); ?></a></li>
@@ -132,7 +132,7 @@
 				<?php } ?>
 				</ul>
 
-				<?php 
+				<?php
 				if (has_nav_menu('top_nav')) {
 					wp_nav_menu(array('theme_location' => 'top_nav', 'menu_class' => 'nav navbar-nav', 'depth' => '3'));
 				} else {
@@ -141,18 +141,18 @@
 					echo '</ul>';
 				}
 				?>
-		
+
 				<ul id="topmenu-icons-wrapper" class="nav navbar-nav">
 					<?php if ('' != $facebook_icon_url = of_get_option('facebook_icon_url')) { ?>
 					<li><a class="topmenu-icons" href="<?php echo $facebook_icon_url; ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Find us on Facebook', 'ipin'); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
 					<?php } ?>
-	
+
 					<?php if ('' != $twitter_icon_url = of_get_option('twitter_icon_url')) { ?>
 					<li><a class="topmenu-icons" href="<?php echo $twitter_icon_url; ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Follow us on Twitter', 'ipin'); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<?php } ?>
 
 					<li><a class="topmenu-icons" href="<?php bloginfo('rss2_url'); ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Subscribe to RSS Feed', 'ipin'); ?>"><i class="fa fa-rss"></i></a></li>
-					
+
 					<li class="dropdown hidden-xs"><a id="topmenu-search" class="dropdown-toggle topmenu-icons" data-toggle="dropdown" href=""><i class="fa fa-search"></i></a>
 						<ul id="dropdown-search" class="dropdown-menu">
 							<li>
@@ -174,7 +174,7 @@
 		</div>
 	</nav>
 
-	<?php if (!$user_ID) { ?>	
+	<?php if (!$user_ID) { ?>
 	<div id="top-message-wrapper">
 		<div id="top-message" class="container">
 			<div class="pull-right">
@@ -202,7 +202,7 @@
 			<?php if (category_description()) { ?>
 				<?php echo category_description(); ?>
 			<?php } ?>
-			
+
 			<?php
 			$current_cat = get_category(get_query_var('cat'));
 			if ($current_cat->parent == 0) {
@@ -216,7 +216,7 @@
 				$parent_cat_id = $parent_cat->cat_ID;
 			}
 			$categories = get_categories('hide_empty=0&child_of=' . $parent_cat_id);
-			
+
 			if ($categories || !$is_parent_cat) {
 				echo '<div class="text-center">';
 				if (!$is_parent_cat) {
@@ -224,7 +224,7 @@
 				}
 				foreach($categories as $category) {
 				?>
-				<a class="popular-categories<?php if (is_category($category->cat_ID)) echo ' popular-categories-active'; ?>" href="<?php echo get_category_link($category->cat_ID); ?>"><?php echo $category->name; ?></a> 
+				<a class="popular-categories<?php if (is_category($category->cat_ID)) echo ' popular-categories-active'; ?>" href="<?php echo get_category_link($category->cat_ID); ?>"><?php echo $category->name; ?></a>
 				<?php }
 				echo '</div><br />';
 			} ?>
