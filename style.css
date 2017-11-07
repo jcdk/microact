@@ -1787,12 +1787,15 @@ width: 100%;
     color: #ffffff;
     background-color: #00dec7;
     border-color: inherit;
+    border: none;
+    margin: 1px;
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
     color: #ffffff;
     background-color: #07bba9;
-    border-color: inherit;
+    border: none;
+    margin: 1px;
 }
 
 .btn.disabled {
